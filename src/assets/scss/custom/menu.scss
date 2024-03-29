@@ -1,0 +1,187 @@
+
+.logo-menu {
+  position: absolute;
+  top: 30px;
+  left: 15%;
+  width: 70%
+}
+
+.menu-user-name span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.menu-item {
+  height: 68px;
+  position: relative
+}
+
+.menu .active {
+  background: #fff;
+}
+
+.menu-item-box {
+  position: absolute;
+  bottom: 5px
+}
+
+.menu-item-box img {
+  width: auto;
+  height: 30px;
+  max-width: 50px
+}
+
+.menu-item-box p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 7px
+}
+
+.menu-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 4px solid #FF9600;
+  background-size: cover;
+}
+
+.menu-dropdown {
+  z-index: 999;
+  top: 68px;
+  width: 90%;
+  max-width: 330px;
+  right: 10px;
+  background: #FFCB08;;
+  border-radius: 0 0 20px 20px;
+  padding-bottom: 30px;
+}
+
+.icon-menu-dropdown-close, .icon-menu-dropdown-open {
+  cursor: pointer;
+  right: -40px;
+  top: 25px
+}
+
+.btn-setting img {
+  width: 90%;
+  cursor: pointer;
+  margin-top: 15px
+}
+
+.btn-setting img:active {
+  top: 2px;
+}
+
+@media only screen and (max-width: 1500px) {
+  .logo-menu {
+    width: 70%;
+    left: 10%;
+    top: 15px;
+  }
+}
+
+@media only screen and (max-width: 1083px) {
+  .logo-menu {
+    width: 70%;
+    left: 15%;
+  }
+
+  .menu-user-name {
+    display: none;
+  }
+
+  ._col-1, ._col-3 {
+    width: 20%;
+  }
+
+  ._col-2 {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1070px) {
+  .logo-menu {
+    width: 70%;
+    left: 15%;
+    top: 30px;
+  }
+}
+
+.logo-small {
+  display: none;
+}
+
+.logo-pc {
+  display: block;
+}
+
+.btn-top {
+  background: #fffaeb;
+  border: 1px solid #e5b841;
+  height: 60px;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 17px;
+  padding-left: 80px;
+}
+
+.btn-top-setting {
+  background: #fad049;
+  border: 1px solid #e5b841;
+  height: 60px;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 17px;
+  padding-left: 80px;
+}
+
+.btn-top-code {
+  background: #fad049;
+  border: 1px solid #e5b841;
+  height: 60px;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 17px;
+  padding-left: 80px;
+}
+
+.btn-top img, .btn-top-setting img {
+  width: 50px;
+  position: absolute;
+  top: -10px;
+  left: 15px
+}
+
+.btn-top-code img {
+  width: 50px;
+  position: absolute;
+  top: 5px;
+  left: 15px
+}
+
+@media only screen and (max-width: 1286px) {
+  .menu-dropdown-item span {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1182px) {
+  @media only screen and (min-width: 11112px) {
+    .btn-top span {
+      padding-top: 0;
+    }
+  }
+}
